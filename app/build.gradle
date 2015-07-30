@@ -1,4 +1,6 @@
+apply plugin: 'android-sdk-manager'
 apply plugin: 'com.android.application'
+apply plugin: 'deploygate'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
